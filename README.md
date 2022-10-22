@@ -6,7 +6,7 @@ world
 
 ### Proposed Solution:
 No_Context is an fun application that can get rid of all the problems mentioned above, This is a chat application with only one chat channel and everyone is anonymous 
-as the names are only yours till you exit the app then you change again, the names you can chose hard-coded to make this more fun, type unknown1 , unknown2 and so on till
+as the names are only yours till you exit the app then you can change again, the names you can chose hard-coded to make this more fun, type unknown1 , unknown2 and so on till
 unknown10. our application is a perfect recipe for chaos.
 
 ### Application images:
