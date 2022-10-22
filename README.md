@@ -10,6 +10,13 @@ as the names are only yours till you exit the app then you change again, the nam
 unknown10. our application is a perfect recipe for chaos.
 
 ### Application images:
+![image1](NO_CONTEXT.png)
+
+### Functionality & Concepts used:
+The app is very user friendly, chose your unknown number , login , go to No_context channel and you are ready for a fun chat with everyone.
+Live-Data is being used to keep the track of the onging chat
+Intents are used for navigating among different activities of the application
+
 
 
 
