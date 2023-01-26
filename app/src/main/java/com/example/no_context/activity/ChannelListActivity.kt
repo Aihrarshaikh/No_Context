@@ -25,15 +25,11 @@ class ChannelListActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-
         setContent {
             ChatTheme {
-
                 var showDialog: Boolean by remember {
                     mutableStateOf(false)
                 }
-
 //                if (showDialog) {
 //                    CreateChannelDialog(
 //                        dismiss = { channelName ->
@@ -42,20 +38,19 @@ class ChannelListActivity : ComponentActivity() {
 //                        }
 //                    )
 //                }
-
                 ChannelsScreen(
                     isShowingSearch = false,
-                    isShowingHeader = false,
+                    isShowingHeader = true,
+
                     filters = Filters.`in`(
                         fieldName = "type",
                         values = listOf("gaming", "messaging", "commerce", "team", "livestream")
                     ),
-                    title = "Channel List",
+                    title = "ConnectX",
                     onItemClick = { channel ->
                         startActivity(MessagesActivity.getIntent(this, channelId = channel.cid))
                     },
                     onBackPressed = { finish() },
-
 //                    onHeaderAvatarClick = {
 //                        viewModel.logout()
 //                        finish()

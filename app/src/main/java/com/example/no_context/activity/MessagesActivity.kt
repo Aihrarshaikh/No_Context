@@ -67,7 +67,7 @@ class MessagesActivity : ComponentActivity() {
                     attachment = RoundedCornerShape(16.dp),
                     myMessageBubble = RoundedCornerShape(16.dp),
                     otherMessageBubble = RoundedCornerShape(16.dp),
-                    inputField = RectangleShape
+                    inputField = RectangleShape,
                 )
             ) {
                 MessagesScreen(

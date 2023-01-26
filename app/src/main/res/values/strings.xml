@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">no_context</string>
+    <string name = "api_key">4frzq36a4j9k</string>
+    <string name = "un10">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjEwIn0.Wy4a0_bmAT27wzqpDBt6BD0IzsvR6y0MOQkWM3FOIy0</string>
+    <string name="un9">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjkifQ.w2TAWm27owRgTGrOhLu1DsR4b3QhFc3Fl_fSQcUm1sY</string>
+    <string name="un8">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjgifQ.Rq9uHfL9DU5kkIQ68bvRKQTdxZ9rDfeUvHkMlG_BM-c</string>
+    <string name="un7">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjcifQ.3IDKXRcYn7d_V7hVA7c4Dzm7xzmXY5v7k0cbUvCRS3o</string>
+    <string name="un6">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjYifQ.f_h6-pBSWkn5CSo0EMsalDXNYt1DFAAnJJv0ymX6zAI</string>
+    <string name="un5">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjUifQ.XRMNATZjmorNPFEA4nNwohl7Qgapx7W2Kpcpns8fbc0</string>
+    <string name="un4">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjQifQ.Ed9Eo6SxYSZ6QIqusSjleIV-7jWELYDQlkkJ7DhBOxI</string>
+    <string name="un3">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjMifQ.MUZH-ulUOtGhPHWoNwEskNiBJlqKAIbMqUkT2TxZWHY</string>
+    <string name="un2">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjIifQ.eOmbBeffQJSp0Sx_0R07nOM40jOsRQaNrpzSiLqPHH0</string>
+    <string name="un1">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidW5rbm93bjEifQ.wD8wDIOmy52qhnuqmEtzlZN3M0AqX3YnEKJzbdvj5lo</string>
+    <string name="CYBOT">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiQ1lCT1QifQ.Uz0D8AQd6Ox4lcPHB7IZ9kdPH1rgpiHDD4W-D-5uAMU</string>
+    <string name="cybot">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiY3lib3QifQ.6sR6zfdRFqK14au5ITePYBghK8WxyDXb1Kv-NnvSzX4</string>
+    <string name="f1">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZ3Vlc3QtODc3ZGY3ZmQtZTJmNC00N2Q4LWIxNjctNDFhNWQyY2YzNDgzLXJhbmRvbSJ9.6kSzpVUBgyiWljuq9mu7sJphAzAnpw8wD3EJ4H3EZPo</string>
+    <string name="f2">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZ3Vlc3QtMTA4MTEyMzEtNGJmMC00NzQxLWI1YWYtNWQ1MjI4ZTc5YmI4LXJhbmRvbSJ9.ACOZPggq92CTXEbPjjr8BhJYNn3g27QSJiaurzo8__Y</string>
+
+    <string name="f3">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZ3Vlc3QtYjAxYTkyODMtNDcwOC00ZGYzLTlmZTQtMDcxMmY2MWU5Y2U3LXJhbmRvbWJveSJ9.gp1jBBcunvE6ECKTXK7g_ODVpZmZ8npb5XnFJzbNc_Y</string>
 </resources>

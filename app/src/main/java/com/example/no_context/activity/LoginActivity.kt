@@ -1,5 +1,4 @@
 package com.example.no_context
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
@@ -27,16 +26,12 @@ import com.example.no_context.activity.ChannelListActivity
 import com.example.no_context.ui.theme.No_contextTheme
 import com.example.no_context.viewmodel.LoginViewModel
 import dagger.hilt.android.AndroidEntryPoint
-
 @AndroidEntryPoint
 class LoginActivity : ComponentActivity() {
-
     private val viewModel : LoginViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         subscribeToEvents()
-
         setContent {
             No_contextTheme {
                 LoginScreen()
@@ -45,11 +40,9 @@ class LoginActivity : ComponentActivity() {
     }
     @Composable
     fun LoginScreen(){
-
         var username by remember{
             mutableStateOf(TextFieldValue(""))
         }
-
         var showProgress :Boolean by remember {
             mutableStateOf(false)
         }
@@ -91,7 +84,7 @@ class LoginActivity : ComponentActivity() {
                 value = username, onValueChange ={
                 newValue -> username = newValue
             },
-            label = { Text(text = "Enter unknown1 or unknown2....unknown10", style = TextStyle(color = Color.Gray)) },
+            label = { Text(text = "Enter as Unknownx or use faculty id", style = TextStyle(color = Color.Gray)) },
                 modifier = Modifier
                     .fillMaxWidth()
                     .constrainAs(usernameTextField) {
@@ -101,27 +94,14 @@ class LoginActivity : ComponentActivity() {
                     },
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
                 )
-
             Button(onClick = {
                                 if(username.text.trim() == "cybot"){
-                                    viewModel.loginUser(username.text,getString(R.string.jwt_token1))
+                                    viewModel.loginUser(username.text,getString(R.string.cybot))
                                 }
                 if(username.text.trim() == "CYBOT"){
                                     viewModel.loginUser(
                                         username.text,
-                                        getString(R.string.jwt_token)
-                                    )
-                                }
-                if(username.text.trim() == "arjun"){
-                                    viewModel.loginUser(
-                                        username.text,
-                                        getString(R.string.jwt_token2)
-                                    )
-                                }
-                if(username.text.trim() == "palash"){
-                                    viewModel.loginUser(
-                                        username.text,
-                                        getString(R.string.jwt_token3)
+                                        getString(R.string.CYBOT)
                                     )
                                 }
                 if(username.text.trim() == "unknown1"){
@@ -130,7 +110,25 @@ class LoginActivity : ComponentActivity() {
                                         getString(R.string.un1)
                                     )
                                 }
-                                if(username.text.trim() == "unknown2"){
+                if(username.text.trim() == "guest-877df7fd-e2f4-47d8-b167-41a5d2cf3483-random"){
+                    viewModel.loginUser(
+                        username.text,
+                        getString(R.string.f1)
+                    )
+                }
+                if(username.text.trim() == "guest-10811231-4bf0-4741-b5af-5d5228e79bb8-random"){
+                    viewModel.loginUser(
+                        username.text,
+                        getString(R.string.f2)
+                    )
+                }
+                if(username.text.trim() == "guest-b01a9283-4708-4df3-9fe4-0712f61e9ce7-randomboy"){
+                    viewModel.loginUser(
+                        username.text,
+                        getString(R.string.f3)
+                    )
+                }
+                if(username.text.trim() == "unknown2"){
                                     viewModel.loginUser(
                                         username.text,
                                         getString(R.string.un2)
@@ -148,15 +146,13 @@ class LoginActivity : ComponentActivity() {
                                         getString(R.string.un4)
                                     )
                                 }
-
-                                 if(username.text.trim() == "unknown5"){
+                if(username.text.trim() == "unknown5"){
                                     viewModel.loginUser(
                                         username.text,
                                         getString(R.string.un5)
                                     )
                                 }
-
-                                 if(username.text.trim() == "unknown6"){
+                if(username.text.trim() == "unknown6"){
                                     viewModel.loginUser(
                                         username.text,
                                         getString(R.string.un6)
@@ -168,22 +164,19 @@ class LoginActivity : ComponentActivity() {
                                         getString(R.string.un7)
                                     )
                                 }
-
-                                 if(username.text.trim() == "unknown8"){
+                if(username.text.trim() == "unknown8"){
                                     viewModel.loginUser(
                                         username.text,
                                         getString(R.string.un8)
                                     )
                                 }
-
-                                 if(username.text.trim() == "unknown9"){
+                if(username.text.trim() == "unknown9"){
                                     viewModel.loginUser(
                                         username.text,
                                         getString(R.string.un9)
                                     )
                                 }
-
-                                 if(username.text.trim() == "unknown10"){
+                if(username.text.trim() == "unknown10"){
                                     viewModel.loginUser(
                                         username.text,
                                         getString(R.string.un10)
@@ -199,9 +192,8 @@ class LoginActivity : ComponentActivity() {
                     top.linkTo(usernameTextField.bottom, margin = 16.dp)
                 }
                 ) {
-                    Text(text = "jump into the unknown world..")
+                    Text(text = "sign in")
             }
-//
             if(showProgress){
                 CircularProgressIndicator(
                     modifier = Modifier.constrainAs(progressBar){
